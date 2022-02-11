@@ -6,21 +6,56 @@ h1{
     padding: 250px 0;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    width: 50%;
+    left: 50%;
     text-align: center;
-    font-size: 50px;
+    font-size: larger;
+}
+
+.test{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    width: 95%;
 }
 
 .next1{
+    background-color: rgb(255, 87, 87);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left:  auto;
+    margin-right: 80%;
+    cursor: pointer;
+    padding: 15px 32px;
+    font-size: large;
+}
+
+.firstbutton{
     background-color: rgb(65, 162, 253);
     color: rgb(255, 255, 255);
     text-decoration: none;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
-    display: block;
+    display: inline-block;
+    margin-left:  43%;
+    
+    margin-right: auto;
+    cursor: pointer;
+    padding: 15px 32px;
+    font-size: large;
+}
+
+.prev1{
+    background-color: rgb(65, 162, 253);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
     margin-left:  auto;
-    margin-right: 50px;
+    margin-right: auto;
     cursor: pointer;
     padding: 15px 32px;
     font-size: large;
